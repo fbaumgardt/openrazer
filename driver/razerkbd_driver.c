@@ -3694,7 +3694,7 @@ static void razer_kbd_disconnect(struct hid_device *hdev)
         case USB_DEVICE_ID_RAZER_BLADE_14_2021:
         case USB_DEVICE_ID_RAZER_BLADE_17_2022:
         case USB_DEVICE_ID_RAZER_BLADE_15_ADV_EARLY_2022:
-        case USB_DEVICE_ID_RAZER_BLADE_14_2021:
+        case USB_DEVICE_ID_RAZER_BLADE_14_2022:
             device_remove_file(&hdev->dev, &dev_attr_matrix_effect_wave);            // Wave effect
             device_remove_file(&hdev->dev, &dev_attr_matrix_effect_starlight);       // Starlight effect
             device_remove_file(&hdev->dev, &dev_attr_matrix_effect_spectrum);        // Spectrum effect
